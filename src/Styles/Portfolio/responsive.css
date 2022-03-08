@@ -1,0 +1,39 @@
+@media screen and (max-width: 400px) {
+  .portfolio {
+    padding: 20px;
+  }
+  .portfolio .portfolio_header {
+    display: block;
+    padding: 0px;
+    padding-bottom: 15px;
+  }
+  .portfolio .portfolio_header button {
+    padding: 3px 10px;
+    margin: 0px;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 10px;
+  }
+  .portfolio .grid_container {
+    -webkit-columns: 1;
+            columns: 1;
+    gap: 0rem;
+  }
+  .portfolio .btnGroup {
+    float: left;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 5px;
+  }
+  .portfolio .btnGroup button {
+    padding: 5px 0px;
+    margin: 0px;
+    width: 48%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,160 @@
+@import '../Global/global.scss';
+
+.about{
+    float: left;
+    width: 100%;
+    padding: 50px 100px; 
+    display: flex;
+    justify-content: space-between;
+
+    .left{
+        float: left;
+        width: 50%;
+
+        .identity{
+            float: left;
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            padding-bottom: 5px;
+            position: relative;
+
+            h1{
+                padding: 0px;
+                margin: 0px;
+                float: left;
+                width: 100%;
+            }
+            h6{
+                padding: 0px;
+                margin: 0px;
+                float: left;
+                width: 100%;
+            }
+            .location{
+                display: flex;
+                width: 100%;
+                float: left;
+                align-items: center;
+                padding: 8px 0px;
+
+                .icon{
+                    float: left;
+                    width: 20px;
+                    padding: 0px;
+                    margin: 0px;
+
+                    svg{
+                        padding: 0px;
+                        margin: 0px;
+                        float: left;
+                        path{
+                            color: $primaryColor;
+                        }
+                    }
+                }
+                h6{
+                    padding: 0px;
+                    margin: 0px;
+                    float: left;
+                }
+            }
+        }
+        .identity::after{
+            position: absolute;
+            content: "";
+            bottom: 0;
+            left: 0;
+            width: 50%;
+            height: 1px;
+            background: rgb(233, 233, 233);
+        }
+        .description{
+            float: left;
+            width: 100%;
+            padding: 20px 0px;
+            p{
+                padding: 0px;
+                float: left;
+                margin: 0px;
+            }
+        }
+
+        .skills{
+            float: left;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            h5{
+                float: left;
+                width: 100%;
+                padding-bottom: 10px;
+            }
+            p{
+                padding: 0px;
+                margin: 0px;
+                float: left;
+                width: 100%;
+                margin-bottom: 10px;
+                display: flex;
+                align-items: center;
+
+                svg{
+                    padding: 0px;
+                    margin: 0px;
+                    float: left;
+                    text-align: left;
+                    margin-right: 10px;
+                    path{
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+    }
+    
+    .right{
+        float: left;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .image{
+            float: left;
+            width: 400px;
+            height: 300px;
+            background: rgb(235, 235, 235);
+        }
+        .social{
+            float: left;
+            width: 100%;
+            margin-top: 20px;
+            width: 400px;
+            text-align: center;
+            h5{
+                padding: 0px;
+                margin: 0px;
+                float: left;
+                margin-bottom: 10px;
+                text-align: center;
+                width: 100%;
+            }
+            .links{
+                float: left;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                a{
+                    text-decoration: none;
+                    color: $secondaryColor;
+                    margin: 0px 5px;
+                }
+            }
+        }
+    }
+    
+}
+
+@import "./responsive.scss";

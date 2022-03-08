@@ -1,0 +1,19 @@
+@media screen and (max-width: 400px) {
+  .contact {
+    padding: 20px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: block;
+  }
+  .contact .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact .box form {
+    padding: 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

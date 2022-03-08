@@ -1,0 +1,322 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  color: #45455c;
+  font-size: 16px;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 28px;
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 26px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+}
+
+h4 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 22px;
+}
+
+h5 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+}
+
+h6 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.dashboard {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dashboard input {
+  width: 100%;
+  float: left;
+  padding: 8px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dashboard input[type="file"] {
+  background: none;
+  cursor: pointer;
+}
+
+.dashboard .thumbnail {
+  float: left;
+  width: 100%;
+  height: 250px;
+  background: grey;
+}
+
+.dashboard .left {
+  width: 50%;
+  float: left;
+}
+
+.dashboard label {
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+  color: #45455c;
+}
+
+.dashboard textarea {
+  width: 100%;
+  height: 120px;
+  float: left;
+  padding: 8px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dashboard .keywords {
+  float: left;
+  width: 100%;
+}
+
+.dashboard .keywords button {
+  float: left;
+  padding: 3px 15px;
+  font-size: 14px;
+  border-radius: 3px;
+  background: white;
+  color: #45455c;
+  margin: 5px 0px;
+  margin-right: 10px;
+  border: none;
+}
+
+.dashboard .subForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.dashboard .subForm input {
+  width: 80%;
+  margin: 0px;
+  border-radius: 0px;
+}
+
+.dashboard .subForm button {
+  width: 20%;
+  border: none;
+  background: #4d5eff;
+  color: white;
+}
+
+.dashboard_sidebar {
+  float: left;
+  width: 15%;
+  background: #1d1f2e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dashboard_sidebar .menu_item {
+  float: left;
+  width: 100%;
+  background: none;
+  border: none;
+  border-top: 1px solid #333344;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-decoration: none;
+}
+
+.dashboard_sidebar .menu_item:hover {
+  background: #333344;
+}
+
+.dashboard_sidebar .menu_item:last-child {
+  border-bottom: 1px solid #333344;
+}
+
+.dashboard_sidebar .active {
+  float: left;
+  width: 100%;
+  background: none;
+  border: none;
+  border-top: 1px solid #333344;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #333344;
+  padding: 8px 20px;
+}
+
+.dashboard_sidebar .menu_item p {
+  color: white;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.dashboard_sidebar .menu_item .icon {
+  float: left;
+  width: 30px;
+  padding: 0px;
+}
+
+.dashboard_sidebar .menu_item .icon svg {
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+.dashboard_sidebar .menu_item .icon path {
+  color: white;
+}
+
+.dashboard_main {
+  float: left;
+  width: 85%;
+  min-height: 100vh;
+  background: #ebeef1;
+  padding: 30px 50px;
+}
+
+.dashboard_main .learned {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  margin: 10px 0px;
+}
+
+.dashboard_main .learned button {
+  padding: 3px 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+  color: grey;
+  background: white;
+  border: none;
+  text-align: left;
+}
+
+.dashboard_main .right {
+  width: 40%;
+  float: right;
+}
+
+.dashboard_header {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.dashboard_header h5 {
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+.dashboard_header .add_post_button {
+  float: left;
+  padding: 8px 25px;
+  margin: 0px;
+  font-size: 14px;
+  border: none;
+  background: #4d5eff;
+  color: white;
+  border-radius: 2px;
+}
+
+.add_portfolio {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.dashboard_footer {
+  float: left;
+  width: 100%;
+  padding: 0px 100px;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px;
+}
+
+.dashboard_footer p {
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+.dashboard_footer p a {
+  text-decoration: none;
+  color: #4d5eff;
+}
+/*# sourceMappingURL=dashboard.css.map */

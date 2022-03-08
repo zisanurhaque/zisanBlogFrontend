@@ -1,0 +1,56 @@
+@media screen and (max-width: 400px) {
+  .header {
+    display: block;
+    padding: 0px 20px;
+    position: relative;
+  }
+  .header .toggle {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    display: block;
+  }
+  .header .menubar {
+    width: 100%;
+    background: white;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    -webkit-transition: .5s;
+    transition: .5s;
+    z-index: 999;
+    display: block;
+    position: absolute;
+    margin-top: 10vh;
+    left: 0;
+    padding: 0px 20px;
+    overflow: hidden;
+  }
+  .header .menubar a {
+    width: 100%;
+    margin: 0px;
+    padding: 8px 0px;
+    border-bottom: 1px solid #e7e7e7;
+    float: left;
+    position: relative;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .header .menubar :hover {
+    background: #e7e7e7;
+    padding: 8px 10px;
+  }
+  .header .hide {
+    margin-left: -100% !important;
+    width: 100%;
+    float: left;
+  }
+  .dashboardHeader .menubar a {
+    color: #45455c !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

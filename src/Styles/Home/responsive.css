@@ -1,0 +1,41 @@
+@media screen and (max-width: 400px) {
+  .banner {
+    padding: 20px;
+    display: block;
+  }
+  .banner .contents {
+    width: 100%;
+  }
+  .banner .contents h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .banner .contents h4 {
+    font-size: 18px;
+  }
+  .banner .contents .btnGroup {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .banner .contents .btnGroup a {
+    padding: 5px 0px;
+    margin: 0px;
+    width: 48%;
+    text-align: center;
+  }
+  .banner .skills {
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+  }
+  .banner .skills img {
+    max-width: 50px;
+    float: left;
+    margin: 10px 0px;
+    margin-left: 10px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

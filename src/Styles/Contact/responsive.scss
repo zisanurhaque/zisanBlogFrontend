@@ -1,0 +1,16 @@
+@media screen and (max-width: 400px) {
+    .contact{
+        padding: 20px;
+        height: max-content;
+        display: block;
+        .box{
+            width: 100%;
+            margin-bottom: 20px;
+
+            form{
+                padding: 0px;
+                box-shadow: none;
+            }
+        }
+    }
+}

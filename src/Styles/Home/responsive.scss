@@ -1,0 +1,45 @@
+@media screen and (max-width: 400px) {
+    .banner{
+        padding: 20px;
+        display: block;
+
+        .contents{
+            width: 100%;
+
+            h1{
+                font-size: 32px;
+                font-weight: 600;
+            }
+
+            h4{
+                font-size: 18px;
+            }
+
+            .btnGroup{
+                justify-content: space-between;
+                margin-top: 20px;
+                width: 100%;
+
+                a{
+                    padding: 5px 0px;
+                    margin: 0px;
+                    width: 48%;
+                    text-align: center;
+                }
+            }
+        }
+
+        .skills{
+            width: 100%;
+            float: left;
+            padding: 20px 0px;
+
+            img{
+                max-width: 50px;
+                float: left;
+                margin: 10px 0px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

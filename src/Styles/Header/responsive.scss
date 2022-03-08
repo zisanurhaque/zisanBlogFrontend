@@ -1,0 +1,52 @@
+@media screen and (max-width: 400px) {
+    .header{
+        display: block;
+        padding: 0px 20px;
+        position: relative;
+
+        .toggle{
+            background: none;
+            border: none;
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: block;
+        }
+
+        .menubar{
+            width: 100%;
+            background: white;
+            height: max-content;
+            transition: .5s;
+            z-index: 999;
+            display: block;
+            position: absolute;
+            margin-top: 10vh;
+            left: 0;
+            padding: 0px 20px;
+            overflow: hidden;
+
+            a{
+                width: 100%;
+                margin: 0px;
+                padding: 8px 0px;
+                border-bottom: 1px solid rgb(231, 231, 231);
+                float: left;
+                position: relative;
+                transition: .5s;
+            }:hover{
+                background: rgb(231, 231, 231);
+                padding: 8px 10px;
+            }
+        }
+        .hide{
+            margin-left: -100% !important;
+            width: 100%;
+            float: left;
+        }
+    }
+    .dashboardHeader .menubar a{
+        color: rgb(69, 69, 92) !important;
+    }
+}

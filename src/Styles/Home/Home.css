@@ -1,0 +1,170 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  color: #45455c;
+  font-size: 16px;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 28px;
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 26px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+}
+
+h4 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 22px;
+}
+
+h5 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+}
+
+h6 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.banner {
+  float: left;
+  width: 100%;
+  height: 90vh;
+  padding: 0px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+
+.banner .contents {
+  float: left;
+  width: 60%;
+}
+
+.banner .contents h1 {
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner .contents h4 {
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.banner .contents p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.banner .contents .btnGroup {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.banner .contents .btnGroup a {
+  text-decoration: none;
+  color: white;
+  background: #4d5eff;
+  padding: 6px 20px;
+  margin-right: 15px;
+  border-radius: 2px;
+}
+
+.banner .skills {
+  width: 35%;
+  float: right;
+  padding: 0px;
+  margin: 0px;
+}
+
+.banner .skills img {
+  max-width: 80px;
+  float: left;
+  margin: 20px 0px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .banner {
+    padding: 20px;
+    display: block;
+  }
+  .banner .contents {
+    width: 100%;
+  }
+  .banner .contents h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .banner .contents h4 {
+    font-size: 18px;
+  }
+  .banner .contents .btnGroup {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .banner .contents .btnGroup a {
+    padding: 5px 0px;
+    margin: 0px;
+    width: 48%;
+    text-align: center;
+  }
+  .banner .skills {
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+  }
+  .banner .skills img {
+    max-width: 50px;
+    float: left;
+    margin: 10px 0px;
+    margin-left: 10px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,36 @@
+@media screen and (max-width: 400px) {
+    .portfolio{
+        padding: 20px;
+
+        .portfolio_header{
+            display: block;
+            padding: 0px;
+            padding-bottom: 15px;
+
+            button{
+                padding: 3px 10px;
+                margin: 0px;
+                margin-right: 5px;
+                float: left;
+                margin-bottom: 10px;
+            }
+        }
+        .grid_container{
+            columns: 1;
+            gap: 0rem;
+        }
+
+        .btnGroup{
+            float: left;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+            button{
+                padding: 5px 0px;
+                margin: 0px;
+                width: 48%;
+            }
+        }
+    }
+}

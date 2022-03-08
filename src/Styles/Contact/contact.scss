@@ -1,0 +1,75 @@
+@import "../Global/global.scss";
+
+.contact{
+    float: left;
+    width: 100%;
+    padding: 50px 100px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .box{
+        float: left;
+        width: 50%;
+
+        h5{
+            float: left;
+            width: 100%;
+            margin: 10px 0px;
+        }
+        h6{
+            float: left;
+            width: 100%;
+            margin: 10px 0px;
+
+            a{
+                text-decoration: none;
+                color: $primaryColor;
+            }
+        }
+
+        form{
+            float: left;
+            padding: 20px 50px;
+            width: 100%;
+            box-shadow: 0px 0px 5px 0px rgb(209, 209, 209);
+            border-radius: 5px;
+
+            h5{
+                float: left;
+                width: 100%;
+                text-align: center;
+                color: $primaryColor;
+                padding: 15px 0px;
+                padding-top: 5px;
+                margin: 0px;
+            }
+
+            input, textarea{
+                width: 100%;
+                float: left;
+                padding: 8px 10px;
+                margin: 10px 0px;
+                border: 1px solid $primaryColor;
+                outline: none;
+                border-radius: 5px;
+            }
+            textarea{
+                height: 120px;
+                resize: none;
+            }
+            button{
+                float: right;
+                padding: 8px 20px;
+                border: none;
+                background: $primaryColor;
+                color: white;
+                margin: 10px 0px;
+                border-radius: 3px;
+            }
+        }
+    }
+}
+
+@import "./responsive.scss";

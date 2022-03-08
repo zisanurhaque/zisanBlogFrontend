@@ -1,0 +1,95 @@
+@import "../Global/global.scss";
+
+
+// =============Header Styles==============
+.header{
+    float: left;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    position: relative;
+
+    .toggle{
+        display: none;
+    }
+}
+.header::after{
+    content: '';
+    position: absolute;
+    width: 86%;
+    height: 1px;
+    background: rgb(238, 238, 238);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header .brand{
+    float: left;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 4px;
+    a{
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+        float: left;
+    }
+}
+.header .brand h4{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 800;
+    color: $primaryColor;
+    font-size: 28px;
+}
+.header .brand h4 span{
+    font-size: 28px;
+}
+.header .menubar{
+    float: left;
+    width: max-content;
+    float: right;
+}
+.header .menubar a{
+    text-decoration: none;
+    color: $secondaryColor;
+    float: left;
+    padding: 5px 0px;
+    margin-left: 25px;
+    position: relative;
+}
+.header .menubar a.active::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: $secondaryColor;
+    content: "";
+}
+
+// ===============Dashboard Header Style=================
+.dashboardHeader{
+    height: 45px !important;
+    padding: 0px 50px !important;
+    background: $dashboardColor;
+}
+.dashboardHeader::after{
+    background: none;
+    width: 100%;
+}
+.dashboardHeader .brand h4{
+    color: white;
+}
+.dashboardHeader .menubar a{
+    color: white;
+}
+
+@import "./responsive.scss"
